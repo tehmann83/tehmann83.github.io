@@ -11,7 +11,7 @@ var bio = {
   },
   "welcomeMessage" : "Welcome to my Resume! Feel free to contact me.",
   "skills" : ["Java", "HTML5", "CSS3", "JavaScript", "jQuery", "Unix/Linux", "Android", "XML"],
-  "bioPic" : "/images/me3.jpg"
+  "bioPic" : "https://github.com/tehmann83/tehmann83.github.io/blob/master/images/me3.JPG"
 };
 
 bio.display = function() {
