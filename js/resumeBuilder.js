@@ -197,7 +197,7 @@ var projects = {
       "dates" : "2013",
       "location" : "Istanbul, TR",
       "description" : "Documentary photography of the \"Occupy Gezi\"-Movement.",
-      "images" : ["/images/girlTaksim.jpg"]
+      "images" : ["/images/girlTaksim.JPG"]
   },]
 };
 
