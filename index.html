@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Resume</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <!--link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"-->
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-  <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script async src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
 </head>
 
 <body>
@@ -68,17 +68,17 @@
   the DOM. jQuery is fast and easy to use, but it doesn't do anything
   you can't accomplish with vanilla (regular) JavaScript.
   -->
-  <script src="js/jQuery.js"></script>
+  <script async src="js/jQuery.js"></script>
 
   <!-- More on helper.js in the class -->
-  <script src="js/helper.js"></script>
+  <script async src="js/helper.js"></script>
 
   <!--
   The next line tells the browser where to download the JavaScript file you'll be
   writing. In resumeBuilder.js, you'll be writing code that builds the resume
   dynamically when this website, index.html, is opened.
   -->
-  <script src="js/resumeBuilder.js"></script>
+  <script async src="js/resumeBuilder.js"></script>
 
 
   <!--
@@ -125,10 +125,6 @@
     if(document.getElementById('map') === null) {
       document.getElementById('mapDiv').style.display = 'none';
     }
-  </script>
-  
-  // Map mit Google-KEY implementieren
-  <script src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDRsm_lqKFZmgIR_X4sg-QLpr0uFuwTmnA">
   </script>
 </body>
 
