@@ -11,7 +11,7 @@ var bio = {
   },
   "welcomeMessage" : "Welcome to my Resume! Feel free to contact me.",
   "skills" : ["Java", "HTML5", "CSS3", "JavaScript", "jQuery", "Unix/Linux", "Android", "XML"],
-  "bioPic" : "/images/me3.jpg"
+  "bioPic" : "/images/me3.JPG"
 };
 
 bio.display = function() {
@@ -197,7 +197,7 @@ var projects = {
       "dates" : "2013",
       "location" : "Istanbul, TR",
       "description" : "Documentary photography of the \"Occupy Gezi\"-Movement.",
-      "images" : ["images/girlTaksim.jpg"]
+      "images" : ["images/girlTaksim.JPG"]
   },]
 };
 
