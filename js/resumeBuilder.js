@@ -10,7 +10,7 @@ var bio = {
     "location" : "Rotterdam, NL"
   },
   "welcomeMessage" : "Welcome to my Resume! Feel free to contact me.",
-  "skills" : ["Java", "HTML5", "CSS3", "JavaScript", "jQuery", "Unix/Linux", "Android", "XML"],
+  "skills" : ["Java", "HTML5", "CSS3", "JavaScript", "jQuery", "Ajax", "JSON", "Unix/Linux", "Android", "XML"],
   "bioPic" : "/images/me3.JPG"
 };
 
