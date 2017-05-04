@@ -3,7 +3,6 @@ var bio = {
   "name" : "Thomas Ehmann",
   "role" : "Web Developer",
   "contacts" : {
-    "mobile" : "+43-677-617-11811",
     "email" : "ehmannth@gmail.com",
     "github" : "tehmann83",
     "linkedIn" : "linkedin.com/in/tehmann/",
@@ -11,7 +10,7 @@ var bio = {
   },
   "welcomeMessage" : "Welcome to my Resume! Feel free to contact me.",
   "skills" : ["Java", "HTML5", "CSS3", "JavaScript", "jQuery", "Ajax", "JSON", "Unix/Linux", "Android", "XML"],
-  "bioPic" : "/images/me3.JPG"
+  "bioPic" : "images/me3.JPG"
 };
 
 bio.display = function() {
@@ -19,15 +18,14 @@ bio.display = function() {
   var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
   var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
   var formattedMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
-  var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
   var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
   var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
   var formattedLinkedin = HTMLlinkedin.replace("%data%", bio.contacts.linkedIn);
   var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
 
   $("#header").prepend(formattedRole).prepend(formattedName).append(formattedBioPic).append(formattedMessage);
-  $("#topContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLinkedin, formattedLocation);
-  $("#footerContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLinkedin, formattedLocation);
+  $("#topContacts").append(formattedEmail, formattedGithub, formattedLinkedin, formattedLocation);
+  $("#footerContacts").append(formattedEmail, formattedGithub, formattedLinkedin, formattedLocation);
   // skills
   $("#header").append(HTMLskillsStart);
 
