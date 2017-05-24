@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-6">
+          <img class="img-responsive title-logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg"
+           alt="logo" >
+        </div>
+        <div  class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Thomas Ehmann</h1>
+          <h4>Front-End Web Developer</h4>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="rule">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive big-image" src="http://placekitten.com/g/800/250"
+           alt="big image">
+        </div>
+      </div>
+      <section class="row text-center wrap">
+        <header class="row text-left">
+          <div class="col-md-12">
+            <h2 class="text-muted">Feature</h2>
+          </div>
+        </header>
+        <article class="col-md-4 ">
+          <img class="img-responsive small-image" src="http://placekitten.com/g/555/300"
+          alt="appify-kitten" data-toggle="modal" data-target="#project1">
+          <header>
+            <h3>App Force One</h3>
+          </header>
+          <footer>
+            <a class="color_light" href="http://github.com">Link to project</a>
+          </footer>
+        </article>
+        <article class="col-md-4 ">
+          <img class="img-responsive small-image" src="http://placekitten.com/g/555/300"
+          alt="sunflower-kitten" data-toggle="modal" data-target="#project1">
+          <header>
+            <h3>App Two</h3>
+          </header>
+          <footer>
+            <a class="color_light" href="http://github.com">Link to project</a>
+          </footer>
+        </article>
+        <article class="col-md-4 ">
+          <img class="img-responsive small-image" src="http://placekitten.com/g/555/300"
+          alt="bokeh-kitten" data-toggle="modal" data-target="#project1">
+          <header>
+            <h3>App Tree</h3>
+          </header>
+          <footer>
+            <a class="color_light" href="http://github.com">Link to project</a>
+          </footer>
+        </article>
+      </section>
+      <footer class="row text-right contact_margin">
+        <div class="col-md-6 text-muted text-left">
+          <p>Site built in 2017</p>
+        </div>
+        <div class="col-md-6">
+          <a class="contact" href="mailto:ehmannth@gmail.com">Contact</a>
+        </div>
+      </footer>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="kitten">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
