@@ -121,16 +121,16 @@ ul {
 /* FOOTER */
 
 .social-media {
-  position: fixed;
 }
 
-.footer {
-  background-color: #f5f5f5;
-  font-family: "Open Sans", Helvetica, sans-serif;
+footer {
+  background-color: #e0e0e0;
+  bottom: 0;
+  font-family: Helvetica, sans-serif;
   padding: 1rem;
-  position: absolute;
+  position: fixed;
   text-align: center;
-  width: 100%;
+  width: inherit;
 }
 
 .icon {
