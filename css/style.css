@@ -7,7 +7,7 @@
 }
 
 body, header {
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 .container {
@@ -42,13 +42,14 @@ ul {
 
 #list {
   display: block;
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   height: 100%;
   list-style-type: none;
   margin: 0px;
   padding: 0px 0px 10px 0px;
   position: relative;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .nav-item {
@@ -92,7 +93,7 @@ ul {
 }
 
 .title {
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 8px;
@@ -106,7 +107,7 @@ ul {
 }
 
 .project {
-  border-radius: 10% 10% 10% 10%;
+  border-radius: 2% 2% 2% 2%;
   margin: 10%;
 }
 
@@ -114,8 +115,8 @@ ul {
   border: 1px solid #021a40;
   border-radius: 10% 10% 10% 10%;
   margin: 10%;
-  height: 150px;
-  width: 230px;
+  height: 200px;
+  width: 320px;
 }
 
 /* FOOTER */
@@ -134,7 +135,7 @@ footer {
 }
 
 .icon {
-  background-color: #f5f5f5;
+  background-color: #e0e0e0;
   padding-left: 5px;
   padding-right: 5px;
 }
