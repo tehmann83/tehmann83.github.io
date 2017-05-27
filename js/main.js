@@ -3,8 +3,8 @@ var projects = {
       "title" : "Feedreader Testing",
       "url" : "p06-feed-reader-testing/index.html",
       "pic" : "img/p06.PNG",
-      "description" : "",
-      "usedTechnology" : ""
+      "description" : "descr",
+      "usedTechnology" : "used tech"
     },
     {
       "title" : "Neighborhood Map",
@@ -45,15 +45,39 @@ var projects = {
 };
 
 /* Helpers to apply Objects to html */
-var HTMLprojectStart = '<div class="projects-entry"></div>';
-var HTMLprojectTitle = '<a href="#">%data%</a>';
-var HTMLprojectUrl = '<br><a href="#">%data%</a>';
-var HTMLprojectPic = '<img src="%data%" class="project-pic">';
-var HTMLprojectDescription = '<p><br>%data%</p>';
-var HTMLprojectUsedTechnology = '<p><br>%data%</p>';
+
+var HTMLprojectFeatured = '<div class="row featured-project-entry"</div>';
+var HTMLprojectStart = '<div class="row projects-entry"></div>';
+
+var HTMLprojectPic = '<img src="%data%" class="col-md-6 project-pic">';
+
+
+
+/* TODO: Connect title with url.
+ * TODO: In a row two columns with col-md-6. Left: Clickable picture,
+ *       Right: Title/URL, Description, Links to website and github EXTRA
+ *                                                      via button!
+ *
+*/
+var HTMLprojectTitle = '<h3>%data%</h3>';
+var HTMLprojectUrl = '<a href="#">%data%</a>';
+var HTMLprojectDescription = '<h4>Description:</h4>'+'<p> ' + '%data%' + '</p>';
+var HTMLprojectUsedTechnology = '<h4>Used Technology:</h4>'+'<p> ' + '%data%' + '</p>';
 
 /* Display projects function */
 projects.display = function () {
+  for (var i = 0; i < 1; i++){
+    $("#featured-project").append(HTMLprojectFeatured);
+
+    var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[i].title);
+    var formattedUrl = HTMLprojectUrl.replace("%data%", projects.projects[i].url);
+    var formattedPic = HTMLprojectPic.replace("%data%", projects.projects[i].pic);
+    var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[i].description);
+    var formattedUsedTechnology = HTMLprojectUsedTechnology.replace("%data%", projects.projects[i].usedTechnology);
+
+    $(".featured-project-entry").append(formattedPic, formattedTitle, formattedUrl, formattedDescription, formattedUsedTechnology);
+  }
+
   for(var i = 0; i < projects.projects.length; i++){
     $("#projects").append(HTMLprojectStart);
 
@@ -63,7 +87,7 @@ projects.display = function () {
     var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[i].description);
     var formattedUsedTechnology = HTMLprojectUsedTechnology.replace("%data%", projects.projects[i].usedTechnology);
 
-    $(".projects-entry:last").append(formattedTitle, formattedUrl, formattedPic, formattedDescription, formattedUsedTechnology);
+    $(".projects-entry:last").append(formattedPic, formattedTitle, formattedUrl, formattedDescription, formattedUsedTechnology);
   }
 };
 

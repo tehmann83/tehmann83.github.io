@@ -10,6 +10,10 @@ body, header {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
+h3 {
+  margin-top: 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1100px;
@@ -106,15 +110,26 @@ ul {
   display: inherit;
 }
 
-.project {
-  border-radius: 2% 2% 2% 2%;
-  margin: 10%;
+#featured-project {
+  display: block;
+}
+
+#projects {
+  display: block;
+}
+
+.projects-entry,
+.featured-project-entry {
+  margin-bottom: 36px;
+  padding-bottom: 36px;
 }
 
 .project-pic {
   border: 1px solid #021a40;
   border-radius: 10% 10% 10% 10%;
-  margin: 10%;
+  margin: 0px 40px 40px 0px;
+  /*margin-right: 40px;*/
+  padding: 0px 0px 0px 0px;
   height: 200px;
   width: 320px;
 }
@@ -138,4 +153,8 @@ footer {
   background-color: #e0e0e0;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+  h3 { margin-top: 24px; }
 }
