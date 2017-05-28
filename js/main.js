@@ -65,10 +65,8 @@ var HTMLprojectUrl = '<a href="#">%data%</a>';
 var HTMLprojectDescription = '<h4>Description:</h4>'+'<p> ' + '%data%' + '</p>';
 var HTMLprojectUsedTechnology = '<h4>Used Technology:</h4>'+'<p> ' + '%data%' + '</p>';
 
-/* TODO: Add buttons to website and github
-*/
-var HTMLprojectButton= '<a class="btn btn-default" href="%data%" role="button">Website</a>';
-var HTMLprojectGithub = '<a class="btn btn-default" href="%data%" role ="button">Github</a>';
+var HTMLprojectButton= '<a class="btn btn-default link-button" href="%data%" role="button">Website</a>';
+var HTMLprojectGithub = '<a class="btn btn-default link-button" href="%data%" role ="button">Github</a>';
 
 /* Display projects function */
 projects.display = function () {
