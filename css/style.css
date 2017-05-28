@@ -29,21 +29,6 @@ h3 {
   padding-right: 15px;
 }
 
-
-#logo {
-  display: inline-block;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  text-align: left;
-  padding-bottom: 24px;
-  padding-top: 24px;
-}
-
-ul {
-  /*padding-left: 0px;*/
-}
-
 #list {
   display: block;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -56,6 +41,35 @@ ul {
   text-transform: uppercase;
 }
 
+.list-menu {
+  margin-top: 100px !important;
+}
+
+#logo {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: left;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.title {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  padding: 10px 15px 35px 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  /*padding-left: 0px;*/
+}
+
+
 .nav-item {
   display: inline-block;
   font-size: 24px;
@@ -64,7 +78,7 @@ ul {
   padding: 5px;
   position: relative;
   text-align: left;
-  text-decoration: none !important;
+  text-decoration: none !important; /* here it is*/
 }
 
 
@@ -96,27 +110,17 @@ ul {
   animation-fill-mode: both;
 }
 
-.title {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 36px;
-  font-weight: 400;
-  letter-spacing: 8px;
-  padding: 10px 15px 35px 15px;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 .overview {
   display: inherit;
 }
 
+#projects,
 #featured-project {
   display: block;
+  padding: 10%;
 }
 
-#projects {
-  display: block;
-}
 
 .projects-entry,
 .featured-project-entry {
