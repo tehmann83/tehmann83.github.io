@@ -5,8 +5,10 @@ var HTMLcontactGeneric = '<li class="flex-item"><span class="blue-text">%contact
 var HTMLmobile = '<li class="flex-item"><span class="blue-text">mobile</span><span class="white-text">%data%</span></li>';
 var HTMLemail = '<li class="flex-item"><span class="blue-text">email</span><span class="white-text">%data%</span></li>';
 var HTMLtwitter = '<li class="flex-item"><span class="blue-text">twitter</span><span class="white-text">%data%</span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="blue-text">github</span><span class="white-text">%data%</span></li>';
-var HTMLlinkedin = '<li class="flex-item"><span class="blue-text">linkedIn</span><span class="white-text">%data%</span></li>';
+//var HTMLgithub = '<li class="flex-item"><span class="blue-text">github</span><span class="white-text">%data%</span></li>';
+var HTMLgithub = '<li class="flex-item"><span class="blue-text"><a href="https://github.com/tehmann83" class="alt-a">github</a></span></li>';
+//var HTMLlinkedin = '<li class="flex-item"><span class="blue-text">linkedIn</span><span class="white-text">%data%</span></li>';
+var HTMLlinkedin = '<li class="flex-item"><span class="blue-text"><a href="https://www.linkedin.com/in/tehmann/" class="alt-a">linkedin</a></span></li>'
 var HTMLblog = '<li class="flex-item"><span class="blue-text">blog</span><span class="white-text">%data%</span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="blue-text">location</span><span class="white-text">%data%</span></li>';
 

@@ -104,6 +104,13 @@ a {
   display: block;
 }
 
+.alt-a {
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 0px;
+  display: inline;
+}
+
 .welcome-message {
   font-style: italic;
   font-size: 18px;
