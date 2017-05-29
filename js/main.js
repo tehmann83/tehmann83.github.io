@@ -27,7 +27,7 @@ var projects = {
     },
     {
       "title" : "Classic Arcade Game",
-      "url" : "p03-classic-arade-game/index.html",
+      "url" : "p03-classic-arcade-game/index.html",
       "github": "https://github.com/tehmann83/tehmann83.github.io/tree/master/p03-classic-arcade-game",
       "pic" : "img/p03.PNG",
       "description" : "I have been provided with visual assets and a game loop engine; using these tools I had to add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.",
