@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Site</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -40,36 +41,39 @@
             <h2 class="text-muted">Feature</h2>
           </div>
         </header>
+
+
         <article class="col-md-4 ">
-          <img class="img-responsive small-image" src="http://placekitten.com/g/555/300"
+          <img class="img-responsive small-image" src="img/p02.png" style="height: 200px; width: 320px; border: 1px solid #021a40"
           alt="appify-kitten" data-toggle="modal" data-target="#project1">
           <header>
-            <h3>App Force One</h3>
+            <h3>Online Resume</h3>
           </header>
           <footer>
-            <a class="color_light" href="http://github.com">Link to project</a>
+            <a class="color_light" href="https://github.com/tehmann83/tehmann83.github.io/tree/master/p02-online-resume">Link to project</a>
           </footer>
         </article>
         <article class="col-md-4 ">
-          <img class="img-responsive small-image" src="http://placekitten.com/g/555/300"
-          alt="sunflower-kitten" data-toggle="modal" data-target="#project1">
+          <img class="img-responsive small-image" src="img/p03.png" style="height: 200px; width: 320px; border: 1px solid #021a40"
+          alt="sunflower-kitten" data-toggle="modal" data-target="#project2">
           <header>
-            <h3>App Two</h3>
+            <h3>Classic Arcade Game</h3>
           </header>
           <footer>
-            <a class="color_light" href="http://github.com">Link to project</a>
+            <a class="color_light" href="https://github.com/tehmann83/tehmann83.github.io/tree/master/p03-classic-arcade-game">Link to project</a>
           </footer>
         </article>
         <article class="col-md-4 ">
-          <img class="img-responsive small-image" src="http://placekitten.com/g/555/300"
-          alt="bokeh-kitten" data-toggle="modal" data-target="#project1">
+          <img class="img-responsive small-image" src="img/p05.png" style="height: 200px; width: 320px; border: 1px solid #021a40"
+          alt="bokeh-kitten" data-toggle="modal" data-target="#project3">
           <header>
-            <h3>App Tree</h3>
+            <h3>Neighborhood Map</h3>
           </header>
           <footer>
-            <a class="color_light" href="http://github.com">Link to project</a>
+            <a class="color_light" href="https://github.com/tehmann83/tehmann83.github.io/tree/master/p05-neighborhood-map">Link to project</a>
           </footer>
         </article>
+
       </section>
       <footer class="row text-right contact_margin">
         <div class="col-md-6 text-muted text-left">
@@ -80,22 +84,59 @@
         </div>
       </footer>
     </div>
-    <!-- Modal -->
+
+    <!-- Modals -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Online Resume - Thomas Ehmann</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/p02.png" alt="online resume thomas ehmann">
+                    I developed an interactive resume application that reads my resume content from a JSON file and dynamically displays that content within a provided template. I had to use objects, functions, conditionals, and control structures to compose the content that is displayed on the resume.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" ><a href="p02-online-resume/index.html">Website</a></button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="kitten">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
+                    <img class="img-responsive" src="img/p03.png" alt="classic-arcade-game thomas ehmann">
+                    I have been provided with visual assets and a game loop engine; using these tools I had to add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.
                 </div>
                 <div class="modal-footer">
+
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/p05.png" alt="neighborhood-map thomas ehmann">
+                    I developed a single-page application featuring a map of a neighborhood. I added additional functionality to this application, including: map markers, a search function, and a listview. I also implemented a third-party API that provides additional information about the shown locations.
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
   </body>
 </html>
