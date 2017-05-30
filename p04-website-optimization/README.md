@@ -1,6 +1,8 @@
-## Getting started
+### How to run the application
+    ---
 
-Download the repository, unzip files and open index.html in your browser.
+Visit [this site](http://theman.zone/p04-website-optimization/index.html) or download the repository in your desktop, unzip it and open the "index.html" file in your browser to run the project.
+
 
 ## Optimized PageSpeed Insights score
 
