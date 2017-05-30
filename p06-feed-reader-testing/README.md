@@ -1,6 +1,8 @@
-# Start Testing:
+### How to run the application
+    ---
 
-* Load index.html in any browser.
+Visit [this site](http://theman.zone/p06-feed-reader-testing/index.html) or download the repository in your desktop, unzip it and open the "index.html" file in your browser to run the project.
+
 
 # Credits
 
