@@ -5,8 +5,11 @@ frontend-nanodegree-neighborhood-map
 This Map shows cosy cafes in Vienna, Austria. It also includes a weather forecast
 and links to theguardian articles about Austria.
 
-# Starting Map:
-* Load the index.html into your browser.
+### How to run the application
+    ---
+
+Visit [this site](http://theman.zone/p05-neighborhood-map/index.html) or download the repository in your desktop, unzip it and open the "index.html" file in your browser to run the project.
+
 
 # Credits:
 
