@@ -13,8 +13,12 @@ frontend-nanodegree-arcade-game
 
 
 
-# Starting SPLASHR:
-* Load the index.html into your browser
+### How to run the application
+    ---
+
+Visit [this site](http://theman.zone/p03-classic-arcade-game/index.html) or download the repository in your desktop, unzip it and open the "index.html" file in your browser to run the project.
+
+
 
 # Play SPLASHR:
 * Use arrow keys to move
