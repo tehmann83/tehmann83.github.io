@@ -8,7 +8,7 @@ developed and personalized a responsive website with HTML5 and CSS3, from a prov
 I was provided with a design mockup as a PDF-file and had to replicate that design in HTML and CSS. I had to develop a responsive website that would display images, descriptions and links to each of the portfolio projects I completed throughout the course of the Front-End Web Developer Nanodegree.
 
 
-#### How to run the application
+### How to run the application
 ---
 
 Visit [this site](http://theman.zone/p01-portfolio-site/index.html) or download the repository in your desktop, unzip it and open the "index.html" file in your browser to run the project.
