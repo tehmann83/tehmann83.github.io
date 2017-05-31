@@ -14,7 +14,7 @@ var projects = {
       "url" : "p05-neighborhood-map/index.html",
       "github": "https://github.com/tehmann83/tehmann83.github.io/tree/master/p05-neighborhood-map",
       "pic" : "img/p05.PNG",
-      "description" : "I developed a single-page application featuring a map of a neighborhood. I added additional functionality to this application, including: map markers, a search function, and a listview. I also implemented a third-party API that provides additional information about the shown locations.",
+      "description" : "I developed a single-page application featuring a map of a neighborhood using Knockout.js framework. I added additional functionality to this application, including: map markers, a search function, and a listview. I implemented a JSON request to Foursquare API which provides additional information about the shown locations.",
       "usedTechnology" : ""
     },
     {
@@ -22,7 +22,7 @@ var projects = {
       "url" : "p04-website-optimization/index.html",
       "github": "https://github.com/tehmann83/tehmann83.github.io/tree/master/p04-website-optimization",
       "pic" : "img/p04.PNG",
-      "description" : "I had to optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score of 90 and runs at 60 frames per second.",
+      "description" : "Optimized performance-related issues in the critical-rendering-path to reach a target PageSpeed Insights score of 90. Enhanced the scroll animation to run at 60 frames per second.",
       "usedTechnology" : ""
     },
     {
@@ -30,7 +30,7 @@ var projects = {
       "url" : "p03-classic-arcade-game/index.html",
       "github": "https://github.com/tehmann83/tehmann83.github.io/tree/master/p03-classic-arcade-game",
       "pic" : "img/p03.PNG",
-      "description" : "I have been provided with visual assets and a game loop engine; using these tools I had to add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.",
+      "description" : "Coded a number of entities and adding it to provided visual assets and game loop engine. Programmed entities (player character, enemies, and other) in JavaScript's object-oriented style. Built and added different movement patterns to enemy subclasses.",
       "usedTechnology" : ""
     },
     {
@@ -38,7 +38,7 @@ var projects = {
       "url" : "p02-online-resume/index.html",
       "github": "https://github.com/tehmann83/tehmann83.github.io/tree/master/p02-online-resume",
       "pic" : "img/p02.PNG",
-      "description" : "I developed an interactive resume application that reads my resume content from a JSON file and dynamically displays that content within a provided template. I had to use objects, functions, conditionals, and control structures to compose the content that is displayed on the resume",
+      "description" : "I developed an interactive resume application that reads my resume content from a JSON file and dynamically displays that content within a provided template. I had to use objects, functions, conditionals, and control structures to compose the content that is displayed on the resume.",
       "usedTechnology" : ""
     },
     {
