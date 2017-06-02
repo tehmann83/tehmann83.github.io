@@ -125,7 +125,8 @@ ul {
 
 
 .projects-entry,
-.featured-project-entry {
+.featured-project-entry,
+.about-entry {
   margin-bottom: 36px;
   padding-bottom: 36px;
 }
@@ -192,4 +193,21 @@ footer {
 
 @media only screen and (max-width: 991px) {
   h3 { margin-top: 24px; }
+}
+
+@media only screen and (max-width: 400px) {
+  h3 { margin-top: 24px; }
+  .project-pic {
+    height: 115px;
+    width: 230px;
+  }
+
+  .projects-entry,
+  .featured-project-entry,
+  #contact-list,
+  .about-entry {
+    margin-bottom: 54px;
+    padding-bottom: 54px;
+  }
+
 }
