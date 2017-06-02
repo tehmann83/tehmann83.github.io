@@ -193,6 +193,11 @@ footer {
 
 @media only screen and (max-width: 991px) {
   h3 { margin-top: 24px; }
+  .certificate {
+    margin-bottom: 54px;
+    padding-bottom: 54px;
+  }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -205,7 +210,8 @@ footer {
   .projects-entry,
   .featured-project-entry,
   #contact-list,
-  .about-entry {
+  .about-entry,
+  .certificate {
     margin-bottom: 54px;
     padding-bottom: 54px;
   }
