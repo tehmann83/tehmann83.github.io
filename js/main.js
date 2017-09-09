@@ -67,8 +67,8 @@ var HTMLprojectUrl = '<a href="#">%data%</a>';
 var HTMLprojectDescription = '<p> ' + '%data%' + '</p>';
 var HTMLprojectUsedTechnology = '<p> ' + '%data%' + '</p>';
 
-var HTMLprojectButton= '<a class="btn btn-default link-button" href="%data%" role="button">Website</a>';
-var HTMLprojectGithub = '<a class="btn btn-default link-button" href="%data%" role ="button">Github</a>';
+var HTMLprojectButton= '<a class="btn btn-default link-button" href="%data%" role="button" target="_blank">Website</a>';
+var HTMLprojectGithub = '<a class="btn btn-default link-button" href="%data%" role ="button" target="_blank">Github</a>';
 
 /* Display projects function */
 projects.display = function () {
