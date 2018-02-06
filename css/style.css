@@ -191,6 +191,10 @@ footer {
   padding-bottom: 10%;
 }
 
+#tv-medium-widget-d0855{
+    margin-bottom: 200px;
+}
+
 @media only screen and (max-width: 991px) {
   h3 { margin-top: 24px; }
   .certificate {
